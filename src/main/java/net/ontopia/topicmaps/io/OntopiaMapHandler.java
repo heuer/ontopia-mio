@@ -336,7 +336,7 @@ public class OntopiaMapHandler extends AbstractHamsterMapHandler<TopicIF> {
       return new URILocator(iri);
     }
     catch (MalformedURLException ex) {
-      throw new MIOException(ex);
+      throw new MIOException("Malformed IRI: <" + iri + ">", ex);
     }
   }
 
