@@ -206,7 +206,9 @@ public class OntopiaMapHandler extends AbstractHamsterMapHandler<TopicIF> {
     }
     final TMObjectIF existingConstruct = _tm.getObjectByItemIdentifier(sid);
     if (existingConstruct != null && existingConstruct instanceof TopicIF) {
-      return (TopicIF) existingConstruct;
+      topic = (TopicIF) existingConstruct;
+      topic.addSubjectIdentifier(sid);
+      return topic;
     }
     else {
       topic = _builder.makeTopic();
