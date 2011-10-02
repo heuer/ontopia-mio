@@ -28,6 +28,7 @@ repositories {
     mavenRepo urls: 'http://ontopia.googlecode.com/svn/maven-snapshot-repository/'
     mavenRepo urls: 'http://repository.jboss.org/maven2/'
     mavenRepo urls: 'http://repository.semagia.com/snapshots/'
+    mavenRepo urls: 'http://www.tmapi.org/maven-repository/'
 }
 
 dependencies {
