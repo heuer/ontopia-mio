@@ -5,7 +5,7 @@
  * - Execute gradle
  */
 group = 'net.ontopia'
-version = '0.1.0'
+version = '0.1.1'
 
 targetCompatibility = '1.5'
 
