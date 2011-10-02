@@ -31,7 +31,7 @@ repositories {
 }
 
 dependencies {
-    compile 'net.ontopia:ontopia-engine:5.1.0',
+    compile 'net.ontopia:ontopia-engine:(5.1.0,)',
             'org.slf4j:slf4j-api:(1.5.8,)',
             'com.semagia.mio:mio-core:0.9.6-SNAPSHOT'
 
