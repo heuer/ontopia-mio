@@ -1,0 +1,1 @@
+IMapHandler implementation for Ontopia.
